@@ -1,0 +1,68 @@
+const express = require("express");
+const africastalking = require("africastalking");
+
+console.log(africastalking);
+
+var api_key =
+  "19c7c91f1c27b2113d4596d9f9314b7f71936d1ee4073e87b19a4e136fb8ff8d";
+
+const credentials = {
+  apiKey: api_key, // use your sandbox app API key for development in the test environment
+  username: "sandbox", // use 'sandbox' for development in the test environment
+};
+const AfricasTalking = require("africastalking")(credentials);
+
+// Initialize a service e.g. SMS
+const sms = africastalking.SMS;
+
+// Use the service
+const options = {
+  to: ["+254701035549"],
+  message: "I'm a lumberjack and its ok, I work all night and sleep all day",
+};
+
+// Send message and capture the response or error
+sms
+  .send(options)
+  .then((response) => {
+    console.log(response);
+  })
+  .catch((error) => {
+    console.log(error);
+  });
+
+// const app = express();
+// app.listen(4546, () => {
+//   console.log("Running");
+// });
+
+// app.get("/", (req, res) => {
+//   res.status(200).sendfile("interface.html");
+// });
+
+// app.post("/", (req, res) => {
+//   const credentials = {
+//     apiKey: api_key, // use your sandbox app API key for development in the test environment
+//     username: "sandbox", // use 'sandbox' for development in the test environment
+//   };
+
+//   // Initialize a service e.g. SMS
+//   const sms = africastalking.;
+//   console.log(sms);
+
+//   // Use the service
+//   const options = {
+//     to: ["+254701035549"],
+//     message: "I'm a lumberjack and its ok, I work all night and sleep all day",
+//   };
+
+//   // Send message and capture the response or error
+//   sms
+//     .send(options)
+//     .then((response) => {
+//       console.log(response);
+//     })
+//     .catch((error) => {
+//       console.log(error);
+//     });
+// });

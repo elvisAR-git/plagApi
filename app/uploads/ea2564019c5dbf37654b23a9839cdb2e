@@ -1,0 +1,60 @@
+
+class DH:
+    def __init__(self, alice_public_key, bob_public_key, private_key):
+        self.alice_public_key = alice_public_key
+        self.bob_public_key = bob_public_key
+        self.private_key = private_key
+        self.FULL_KEY = None
+
+    def generate_incomplete_key(self):
+        incomplete_key = self.alice_public_key ** self.private_key
+        incomplete_key = incomplete_key % self.bob_public_key
+        return incomplete_key
+
+    def generate_complete_key(self, incomplete_key):
+        complete_key = incomplete_key ** self.private_key
+        complete_key = complete_key % self.bob_public_key
+        self.FULL_KEY = complete_key
+        return complete_key
+
+
+'''
+    alice and bob pick a public key and a private key
+    the private keys remain on their machines.
+
+    they use the partial keys to generate the full key which can be used to encrypt a message
+'''
+
+# Alice
+alice_public_key = 195
+alice_private = 197
+print(
+    f"[+] Alice picks {alice_public_key} as public key and {alice_private} as the private key")
+
+# Bob
+bob_public_key = 151
+bob_private = 159
+print(
+    f"[+] Bob picks {bob_public_key} as public key and {bob_private} as the private key")
+
+print("\n...................................................................\n")
+
+print("[*] Alice sends public key over the network")
+print("[*] Bob sends public key over the network")
+print("\n...................................................................\n\n")
+
+alice = DH(alice_public_key, bob_public_key, alice_private)
+bob = DH(alice_public_key, bob_public_key, bob_private)
+
+alice_full_key = alice.generate_complete_key(bob.generate_incomplete_key())
+bob_full_key = bob.generate_complete_key(alice.generate_incomplete_key())
+
+f3 = None
+if alice_full_key == bob_full_key:
+    # Keys are equal
+    f3 = alice_full_key
+
+
+print(f"[*] ALICE PARTIAL: {alice.generate_incomplete_key()}")
+print(f"[*] BOB PARTIAL: {bob.generate_incomplete_key()}")
+print(f"[!] FULL KEY: {f3}")

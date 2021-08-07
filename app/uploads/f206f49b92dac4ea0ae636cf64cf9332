@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap.css" />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+
+  <body>
+    <nav
+      class="navbar navbar-dark"
+      id="navbar"
+      style="position: fixed; width: 100%; top: 0"
+    >
+      <h1>
+        <svg width="96" height="64" viewBox="0 0 85 45">
+          <defs>
+            <linearGradient
+              x1="-1.11022302e-14%"
+              y1="50%"
+              x2="100%"
+              y2="50%"
+              id="linearGradientLogo-1"
+            >
+              <stop stop-color="#E71575" offset="0%"></stop>
+              <stop stop-color="#A21880" offset="100%"></stop>
+            </linearGradient>
+          </defs>
+          <g fill="url(#linearGradientLogo-1)">
+            <path
+              class="FillTransition-3pscu"
+              d="M55.674,20.3265 C53.9295,20.3265 52.5165,18.912 52.5165,17.1675 C52.5165,15.423 53.9295,14.0085 55.674,14.0085 C57.42,14.0085 58.8345,15.423 58.8345,17.1675 C58.8345,18.912 57.42,20.3265 55.674,20.3265 Z M61.8285,0 C74.181,0 84.195,10.0125 84.195,22.3665 C84.195,34.7175 74.181,44.7315 61.8285,44.7315 C54.4545,44.7315 47.9145,41.163 43.839,35.6595 C45.0165,33.762 45.9435,31.713 46.5825,29.568 C49.284,35.2755 55.095,39.225 61.8285,39.225 C71.139,39.225 78.687,31.677 78.687,22.3665 C78.687,13.0545 71.139,5.5065 61.8285,5.5065 C53.034,5.5065 45.8115,12.2415 45.039,20.8335 C44.997,21.3645 44.9535,21.8745 44.9055,22.3665 C44.718,23.916 44.5125,25.626 44.1075,27.639 C41.7375,37.446 32.9025,44.7315 22.3665,44.7315 C10.014,44.7315 0,34.7175 0,22.3665 C0,10.0125 10.014,0 22.3665,0 C29.7405,0 36.2805,3.5685 40.356,9.072 C39.1785,10.9695 38.2515,13.0185 37.6125,15.1635 C34.911,9.456 29.1,5.5065 22.3665,5.5065 C13.056,5.5065 5.508,13.0545 5.508,22.3665 C5.508,31.677 13.056,39.225 22.3665,39.225 C31.161,39.225 38.382,32.4915 39.156,23.898 C39.198,23.367 39.2415,22.857 39.2895,22.3665 C39.477,20.814 39.6825,19.1055 40.0875,17.0925 C42.4575,7.284 51.2925,0 61.8285,0 Z M52.0155,25.1955 C52.0155,24.7275 52.434,24.345 52.947,24.345 L70.674,24.345 C71.1855,24.345 71.6055,24.7275 71.6055,25.1955 C71.6055,30.606 67.2195,34.992 61.8105,34.992 C56.4,34.992 52.0155,30.606 52.0155,25.1955 Z M70.656,17.1675 C70.656,18.912 69.2415,20.3265 67.497,20.3265 C65.7525,20.3265 64.338,18.912 64.338,17.1675 C64.338,15.423 65.7525,14.0085 67.497,14.0085 C69.2415,14.0085 70.656,15.423 70.656,17.1675 Z M12.5715,25.1955 C12.5715,24.7275 12.99,24.345 13.503,24.345 L31.23,24.345 C31.7415,24.345 32.1615,24.7275 32.1615,25.1955 C32.1615,30.606 27.7755,34.992 22.3665,34.992 C16.9575,34.992 12.5715,30.606 12.5715,25.1955 Z M31.5285,17.1675 C31.5285,18.912 30.114,20.3265 28.3695,20.3265 C26.625,20.3265 25.2105,18.912 25.2105,17.1675 C25.2105,15.423 26.625,14.0085 28.3695,14.0085 C30.114,14.0085 31.5285,15.423 31.5285,17.1675 Z M16.548,20.3265 C14.802,20.3265 13.3875,18.912 13.3875,17.1675 C13.3875,15.423 14.802,14.0085 16.548,14.0085 C18.2925,14.0085 19.7055,15.423 19.7055,17.1675 C19.7055,18.912 18.2925,20.3265 16.548,20.3265 Z"
+            ></path>
+          </g>
+        </svg>
+      </h1>
+
+      <ul class="nav">
+        <li class="nav-item"><a href="#" class="nav-link">Bookings</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Messages</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Favourites</a></li>
+      </ul>
+      <img
+        src="/images/073-menu.svg"
+        alt=""
+        id="menu"
+        onclick="showMobile(this)"
+      />
+      <div class="mobile-menu" id="mobile-menu">
+        <ul>
+          <li class="nav-item"><a href="#" class="nav-link">Bookings</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Messages</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Favourites</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container-m" style="margin-top: 9%">
+      <!-- carousel thingie -->
+      <div class="carousel">
+        <img
+          src="https://res.cloudinary.com/withlocals-com/image/upload/w_1280,h_320,c_fill,q_80,o_75,b_black,g_faces,fl_progressive/b477bf121c87907562f285380716ca32"
+          alt=""
+        />
+        <div class="carousel-body">
+          <div class="title">Make Money doing what you love</div>
+          <div class="subtitle">
+            Share your passion and love for your city on withlocals experience
+          </div>
+
+          <button class="rounded-btn shadow">Lets get started</button>
+        </div>
+      </div>
+
+      <!-- text bridge -->
+      <section class="text-bridge faded-text">
+        <h2>What is withlocals?</h2>
+        <p>
+          It’s a free platform that empowers locals, like you, to earn money by
+          hosting a private tour or experience in their city.
+        </p>
+      </section>
+
+      <!-- wide image -->
+      <section class="wide-image">
+        <img
+          src="https://withlocals-com-res.cloudinary.com/image/upload/c_fill,g_auto,q_80,dpr_1.0,ar_5:1,fl_progressive/website/hero-barcelona.jpg"
+          alt=""
+        />
+      </section>
+
+      <!-- benefits-row -->
+      <section class="row benefits-row faded-text">
+        <div class="card col-md-4 faded-text text-center">
+          <card-img>
+            <svg width="96" height="64" viewBox="0 0 85 45">
+              <defs>
+                <linearGradient
+                  x1="-1.11022302e-14%"
+                  y1="50%"
+                  x2="100%"
+                  y2="50%"
+                  id="linearGradientLogo-1"
+                >
+                  <stop stop-color="#E71575" offset="0%"></stop>
+                  <stop stop-color="#A21880" offset="100%"></stop>
+                </linearGradient>
+              </defs>
+              <g fill="url(#linearGradientLogo-1)">
+                <path
+                  class="FillTransition-3pscu"
+                  d="M55.674,20.3265 C53.9295,20.3265 52.5165,18.912 52.5165,17.1675 C52.5165,15.423 53.9295,14.0085 55.674,14.0085 C57.42,14.0085 58.8345,15.423 58.8345,17.1675 C58.8345,18.912 57.42,20.3265 55.674,20.3265 Z M61.8285,0 C74.181,0 84.195,10.0125 84.195,22.3665 C84.195,34.7175 74.181,44.7315 61.8285,44.7315 C54.4545,44.7315 47.9145,41.163 43.839,35.6595 C45.0165,33.762 45.9435,31.713 46.5825,29.568 C49.284,35.2755 55.095,39.225 61.8285,39.225 C71.139,39.225 78.687,31.677 78.687,22.3665 C78.687,13.0545 71.139,5.5065 61.8285,5.5065 C53.034,5.5065 45.8115,12.2415 45.039,20.8335 C44.997,21.3645 44.9535,21.8745 44.9055,22.3665 C44.718,23.916 44.5125,25.626 44.1075,27.639 C41.7375,37.446 32.9025,44.7315 22.3665,44.7315 C10.014,44.7315 0,34.7175 0,22.3665 C0,10.0125 10.014,0 22.3665,0 C29.7405,0 36.2805,3.5685 40.356,9.072 C39.1785,10.9695 38.2515,13.0185 37.6125,15.1635 C34.911,9.456 29.1,5.5065 22.3665,5.5065 C13.056,5.5065 5.508,13.0545 5.508,22.3665 C5.508,31.677 13.056,39.225 22.3665,39.225 C31.161,39.225 38.382,32.4915 39.156,23.898 C39.198,23.367 39.2415,22.857 39.2895,22.3665 C39.477,20.814 39.6825,19.1055 40.0875,17.0925 C42.4575,7.284 51.2925,0 61.8285,0 Z M52.0155,25.1955 C52.0155,24.7275 52.434,24.345 52.947,24.345 L70.674,24.345 C71.1855,24.345 71.6055,24.7275 71.6055,25.1955 C71.6055,30.606 67.2195,34.992 61.8105,34.992 C56.4,34.992 52.0155,30.606 52.0155,25.1955 Z M70.656,17.1675 C70.656,18.912 69.2415,20.3265 67.497,20.3265 C65.7525,20.3265 64.338,18.912 64.338,17.1675 C64.338,15.423 65.7525,14.0085 67.497,14.0085 C69.2415,14.0085 70.656,15.423 70.656,17.1675 Z M12.5715,25.1955 C12.5715,24.7275 12.99,24.345 13.503,24.345 L31.23,24.345 C31.7415,24.345 32.1615,24.7275 32.1615,25.1955 C32.1615,30.606 27.7755,34.992 22.3665,34.992 C16.9575,34.992 12.5715,30.606 12.5715,25.1955 Z M31.5285,17.1675 C31.5285,18.912 30.114,20.3265 28.3695,20.3265 C26.625,20.3265 25.2105,18.912 25.2105,17.1675 C25.2105,15.423 26.625,14.0085 28.3695,14.0085 C30.114,14.0085 31.5285,15.423 31.5285,17.1675 Z M16.548,20.3265 C14.802,20.3265 13.3875,18.912 13.3875,17.1675 C13.3875,15.423 14.802,14.0085 16.548,14.0085 C18.2925,14.0085 19.7055,15.423 19.7055,17.1675 C19.7055,18.912 18.2925,20.3265 16.548,20.3265 Z"
+                ></path>
+              </g>
+            </svg>
+          </card-img>
+          <p class="card-title">Earn money doing what you love</p>
+          <p>
+            If you love your city why not share it with the rest of the world?
+            Even better, why not make some money while doing so. Here, you set
+            up your own price.
+          </p>
+        </div>
+        <div class="card card-special col-md-4 faded-text text-center">
+          <card-img>
+            <svg width="96" height="64" viewBox="0 0 85 45">
+              <defs>
+                <linearGradient
+                  x1="-1.11022302e-14%"
+                  y1="50%"
+                  x2="100%"
+                  y2="50%"
+                  id="linearGradientLogo-1"
+                >
+                  <stop stop-color="#E71575" offset="0%"></stop>
+                  <stop stop-color="#A21880" offset="100%"></stop>
+                </linearGradient>
+              </defs>
+              <g fill="url(#linearGradientLogo-1)">
+                <path
+                  class="FillTransition-3pscu"
+                  d="M55.674,20.3265 C53.9295,20.3265 52.5165,18.912 52.5165,17.1675 C52.5165,15.423 53.9295,14.0085 55.674,14.0085 C57.42,14.0085 58.8345,15.423 58.8345,17.1675 C58.8345,18.912 57.42,20.3265 55.674,20.3265 Z M61.8285,0 C74.181,0 84.195,10.0125 84.195,22.3665 C84.195,34.7175 74.181,44.7315 61.8285,44.7315 C54.4545,44.7315 47.9145,41.163 43.839,35.6595 C45.0165,33.762 45.9435,31.713 46.5825,29.568 C49.284,35.2755 55.095,39.225 61.8285,39.225 C71.139,39.225 78.687,31.677 78.687,22.3665 C78.687,13.0545 71.139,5.5065 61.8285,5.5065 C53.034,5.5065 45.8115,12.2415 45.039,20.8335 C44.997,21.3645 44.9535,21.8745 44.9055,22.3665 C44.718,23.916 44.5125,25.626 44.1075,27.639 C41.7375,37.446 32.9025,44.7315 22.3665,44.7315 C10.014,44.7315 0,34.7175 0,22.3665 C0,10.0125 10.014,0 22.3665,0 C29.7405,0 36.2805,3.5685 40.356,9.072 C39.1785,10.9695 38.2515,13.0185 37.6125,15.1635 C34.911,9.456 29.1,5.5065 22.3665,5.5065 C13.056,5.5065 5.508,13.0545 5.508,22.3665 C5.508,31.677 13.056,39.225 22.3665,39.225 C31.161,39.225 38.382,32.4915 39.156,23.898 C39.198,23.367 39.2415,22.857 39.2895,22.3665 C39.477,20.814 39.6825,19.1055 40.0875,17.0925 C42.4575,7.284 51.2925,0 61.8285,0 Z M52.0155,25.1955 C52.0155,24.7275 52.434,24.345 52.947,24.345 L70.674,24.345 C71.1855,24.345 71.6055,24.7275 71.6055,25.1955 C71.6055,30.606 67.2195,34.992 61.8105,34.992 C56.4,34.992 52.0155,30.606 52.0155,25.1955 Z M70.656,17.1675 C70.656,18.912 69.2415,20.3265 67.497,20.3265 C65.7525,20.3265 64.338,18.912 64.338,17.1675 C64.338,15.423 65.7525,14.0085 67.497,14.0085 C69.2415,14.0085 70.656,15.423 70.656,17.1675 Z M12.5715,25.1955 C12.5715,24.7275 12.99,24.345 13.503,24.345 L31.23,24.345 C31.7415,24.345 32.1615,24.7275 32.1615,25.1955 C32.1615,30.606 27.7755,34.992 22.3665,34.992 C16.9575,34.992 12.5715,30.606 12.5715,25.1955 Z M31.5285,17.1675 C31.5285,18.912 30.114,20.3265 28.3695,20.3265 C26.625,20.3265 25.2105,18.912 25.2105,17.1675 C25.2105,15.423 26.625,14.0085 28.3695,14.0085 C30.114,14.0085 31.5285,15.423 31.5285,17.1675 Z M16.548,20.3265 C14.802,20.3265 13.3875,18.912 13.3875,17.1675 C13.3875,15.423 14.802,14.0085 16.548,14.0085 C18.2925,14.0085 19.7055,15.423 19.7055,17.1675 C19.7055,18.912 18.2925,20.3265 16.548,20.3265 Z"
+                ></path>
+              </g>
+            </svg>
+          </card-img>
+          <p class="card-title">Earn money doing what you love</p>
+          <p>
+            If you love your city why not share it with the rest of the world?
+            Even better, why not make some money while doing so. Here, you set
+            up your own price.
+          </p>
+        </div>
+        <div class="card col-md-4 faded-text text-center">
+          <card-img>
+            <svg width="96" height="64" viewBox="0 0 85 45">
+              <defs>
+                <linearGradient
+                  x1="-1.11022302e-14%"
+                  y1="50%"
+                  x2="100%"
+                  y2="50%"
+                  id="linearGradientLogo-1"
+                >
+                  <stop stop-color="#E71575" offset="0%"></stop>
+                  <stop stop-color="#A21880" offset="100%"></stop>
+                </linearGradient>
+              </defs>
+              <g fill="url(#linearGradientLogo-1)">
+                <path
+                  class="FillTransition-3pscu"
+                  d="M55.674,20.3265 C53.9295,20.3265 52.5165,18.912 52.5165,17.1675 C52.5165,15.423 53.9295,14.0085 55.674,14.0085 C57.42,14.0085 58.8345,15.423 58.8345,17.1675 C58.8345,18.912 57.42,20.3265 55.674,20.3265 Z M61.8285,0 C74.181,0 84.195,10.0125 84.195,22.3665 C84.195,34.7175 74.181,44.7315 61.8285,44.7315 C54.4545,44.7315 47.9145,41.163 43.839,35.6595 C45.0165,33.762 45.9435,31.713 46.5825,29.568 C49.284,35.2755 55.095,39.225 61.8285,39.225 C71.139,39.225 78.687,31.677 78.687,22.3665 C78.687,13.0545 71.139,5.5065 61.8285,5.5065 C53.034,5.5065 45.8115,12.2415 45.039,20.8335 C44.997,21.3645 44.9535,21.8745 44.9055,22.3665 C44.718,23.916 44.5125,25.626 44.1075,27.639 C41.7375,37.446 32.9025,44.7315 22.3665,44.7315 C10.014,44.7315 0,34.7175 0,22.3665 C0,10.0125 10.014,0 22.3665,0 C29.7405,0 36.2805,3.5685 40.356,9.072 C39.1785,10.9695 38.2515,13.0185 37.6125,15.1635 C34.911,9.456 29.1,5.5065 22.3665,5.5065 C13.056,5.5065 5.508,13.0545 5.508,22.3665 C5.508,31.677 13.056,39.225 22.3665,39.225 C31.161,39.225 38.382,32.4915 39.156,23.898 C39.198,23.367 39.2415,22.857 39.2895,22.3665 C39.477,20.814 39.6825,19.1055 40.0875,17.0925 C42.4575,7.284 51.2925,0 61.8285,0 Z M52.0155,25.1955 C52.0155,24.7275 52.434,24.345 52.947,24.345 L70.674,24.345 C71.1855,24.345 71.6055,24.7275 71.6055,25.1955 C71.6055,30.606 67.2195,34.992 61.8105,34.992 C56.4,34.992 52.0155,30.606 52.0155,25.1955 Z M70.656,17.1675 C70.656,18.912 69.2415,20.3265 67.497,20.3265 C65.7525,20.3265 64.338,18.912 64.338,17.1675 C64.338,15.423 65.7525,14.0085 67.497,14.0085 C69.2415,14.0085 70.656,15.423 70.656,17.1675 Z M12.5715,25.1955 C12.5715,24.7275 12.99,24.345 13.503,24.345 L31.23,24.345 C31.7415,24.345 32.1615,24.7275 32.1615,25.1955 C32.1615,30.606 27.7755,34.992 22.3665,34.992 C16.9575,34.992 12.5715,30.606 12.5715,25.1955 Z M31.5285,17.1675 C31.5285,18.912 30.114,20.3265 28.3695,20.3265 C26.625,20.3265 25.2105,18.912 25.2105,17.1675 C25.2105,15.423 26.625,14.0085 28.3695,14.0085 C30.114,14.0085 31.5285,15.423 31.5285,17.1675 Z M16.548,20.3265 C14.802,20.3265 13.3875,18.912 13.3875,17.1675 C13.3875,15.423 14.802,14.0085 16.548,14.0085 C18.2925,14.0085 19.7055,15.423 19.7055,17.1675 C19.7055,18.912 18.2925,20.3265 16.548,20.3265 Z"
+                ></path>
+              </g>
+            </svg>
+          </card-img>
+          <p class="card-title">Earn money doing what you love</p>
+          <p>
+            If you love your city why not share it with the rest of the world?
+            Even better, why not make some money while doing so. Here, you set
+            up your own price.
+          </p>
+        </div>
+      </section>
+
+      <!-- wide image -->
+      <div class="wide-image">
+        <img
+          src="https://withlocals-com-res.cloudinary.com/image/upload/c_fill,g_auto,q_80,dpr_1.0,ar_5:1,fl_progressive/Host_offer_a0n6xe.jpg"
+          alt=""
+        />
+      </div>
+
+      <!-- card row -->
+      <section class="row benefits-row">
+        <div class="card col-md-4 faded-text text-center">
+          <p class="card-title">Earn money doing what you love</p>
+          <p>
+            If you love your city why not share it with the rest of the world?
+            Even better, why not make some money while doing so. Here, you set
+            up your own price.
+          </p>
+        </div>
+        <div class="card card-special col-md-4 faded-text text-center">
+          <p class="card-title">Earn money doing what you love</p>
+          <p>
+            If you love your city why not share it with the rest of the world?
+            Even better, why not make some money while doing so. Here, you set
+            up your own price.
+          </p>
+        </div>
+        <div class="card col-md-4 faded-text text-center">
+          <p class="card-title">Earn money doing what you love</p>
+          <p>
+            If you love your city why not share it with the rest of the world?
+            Even better, why not make some money while doing so. Here, you set
+            up your own price.
+          </p>
+        </div>
+      </section>
+      <!-- steps row -->
+      <section class="steps-row text-center">
+        <h2>Let's get started!</h2>
+        <div class="steps">
+          <div class="row">
+            <div class="steps-card col-md-4">
+              <div class="card-body">
+                <p class="count">1</p>
+                <p class="card-title">Create your withlocals account</p>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Dolore quidem accusantium, a dignissimos quos, eaque error,
+                  quibusdam natus voluptas nostrum velit similique nam debitis
+                  optio vel ab praesentium dolorum doloribus.
+                </p>
+              </div>
+            </div>
+            <div class="steps-card col-md-4">
+              <div class="card-body">
+                <p class="count">2</p>
+                <p class="card-title">Create your withlocals account</p>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Dolore quidem accusantium, a dignissimos quos, eaque error,
+                  quibusdam natus voluptas nostrum velit similique nam debitis
+                  optio vel ab praesentium dolorum doloribus.
+                </p>
+              </div>
+            </div>
+            <div class="steps-card col-md-4">
+              <div class="card-body">
+                <p class="count">3</p>
+                <p class="card-title">Create your withlocals account</p>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Dolore quidem accusantium, a dignissimos quos, eaque error,
+                  quibusdam natus voluptas nostrum velit similique nam debitis
+                  optio vel ab praesentium dolorum doloribus.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="rounded-btn">Lets getStarted</button>
+      </section>
+
+      <!-- people section or team -->
+
+      <section class="people">
+        <div class="app faded-text">
+          <h2>Meet our locals!</h2>
+          <ul class="hs">
+            <li class="item">
+              <div class="person">
+                <div class="person-holder">
+                  <div class="person-details">
+                    <p class="short-message">Hello i am</p>
+                    <p class="person-name">Michel The wine Expert</p>
+                    <a href="/index.html"
+                      ><button class="rounded-outline-btn">
+                        More about me
+                      </button></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="item">
+              <div class="person">
+                <div class="person-holder">
+                  <div class="person-details">
+                    <p class="short-message">Hello i am</p>
+                    <p class="person-name">Michel The wine Expert</p>
+                    <a href="/index.html"
+                      ><button class="rounded-outline-btn">
+                        More about me
+                      </button></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="item">
+              <div class="person">
+                <div class="person-holder">
+                  <div class="person-details">
+                    <p class="short-message">Hello i am</p>
+                    <p class="person-name">Michel The wine Expert</p>
+                    <a href="/index.html"
+                      ><button class="rounded-outline-btn">
+                        More about me
+                      </button></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="item">
+              <div class="person">
+                <div class="person-holder">
+                  <div class="person-details">
+                    <p class="short-message">Hello i am</p>
+                    <p class="person-name">Michel The wine Expert</p>
+                    <a href="/index.html"
+                      ><button class="rounded-outline-btn">
+                        More about me
+                      </button></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <hr />
+      <br />
+
+      <!-- servises section -->
+      <section class="services faded-text">
+        <h2>What Withlocals can offer to you</h2>
+        <div class="row benefits-row">
+          <div class="card col-md-4">
+            <div class="card-body">
+              <p class="card-title">Create your withlocals account</p>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore
+                quidem accusantium, a dignissimos quos, eaque error, quibusdam
+                natus voluptas nostrum velit similique nam debitis optio vel ab
+                praesentium dolorum doloribus.
+              </p>
+            </div>
+          </div>
+          <div class="card col-md-4">
+            <div class="card-body">
+              <p class="card-title">Create your withlocals account</p>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore
+                quidem accusantium, a dignissimos quos, eaque error, quibusdam
+                natus voluptas nostrum velit similique nam debitis optio vel ab
+                praesentium dolorum doloribus.
+              </p>
+            </div>
+          </div>
+          <div class="card col-md-4">
+            <div class="card-body">
+              <p class="card-title">Create your withlocals account</p>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore
+                quidem accusantium, a dignissimos quos, eaque error, quibusdam
+                natus voluptas nostrum velit similique nam debitis optio vel ab
+                praesentium dolorum doloribus.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr />
+
+      <!-- FAQ section -->
+      <section class="faq faded-text">
+        <h2>Frequently Asked Questions</h2>
+        <div class="row g-2">
+          <div class="col-md-4">
+            <a href="/"><p>Do I have to pay taxes on my earnings?</p></a>
+          </div>
+          <div class="col-md-4">
+            <a href="/"><p>Do I have to pay taxes on my earnings?</p></a>
+          </div>
+          <div class="col-md-4">
+            <a href="/"><p>Do I have to pay taxes on my earnings?</p></a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+  <!-- script section -->
+  <script src="index.js"></script>
+</html>

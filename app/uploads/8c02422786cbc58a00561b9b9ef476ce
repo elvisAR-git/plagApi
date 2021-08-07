@@ -1,0 +1,37 @@
+def solution(A):
+    A.sort(reverse=True)
+    counter = 0
+    target_value = sum(A) / 2
+    print("Target value:", target_value)
+    print("Full value:", sum(A))
+    filters = 0
+    copy_a = A.copy()
+    v = 0
+    copy_a.pop(counter)
+    max_a = max(copy_a)
+
+    for element in A:
+        exit = False
+        emmision = (element / 2)
+        v += emmision
+        filters += 1
+        if emmision > max_a:
+            while True:
+                m = emmision / 2
+                filters += 1
+                v += m
+
+                if v >= target_value:
+                    exit = True
+                    break
+
+                if m < max_a:
+                    break
+                emmision = m
+        if exit:
+            break
+    print("Required filters:", filters)
+    return filters
+
+
+solution([.3, 6.2, 1.5])

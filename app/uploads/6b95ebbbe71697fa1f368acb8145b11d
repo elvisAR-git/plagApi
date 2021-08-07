@@ -1,0 +1,146 @@
+import base64
+from cryptography.hazmat.backends import default_backend
+from cryptography.hazmat.primitives import serialization
+from cryptography.hazmat.primitives.asymmetric import rsa
+from cryptography.hazmat.primitives import hashes
+from cryptography.hazmat.primitives.asymmetric import padding
+import time
+
+
+class Signer:
+    '''
+    This class reprensents the signer that is used to sign the file and generate the keys and
+    The signature file
+
+    Args:
+    ----
+    file_name :
+        the file path of the file to be signed
+        type : str
+
+    private_key_name:
+        the file path to which the private key will be saved
+        type : str
+
+    public_key_name:
+        the file path onto which the publick key will be saved
+        type: str
+
+    signature_name:
+        the file path to which the resulting key will be saved
+        type: str
+    '''
+
+    def __init__(self, file_name, private_key_name, public_key_name, signature_name):
+        self.private_key_name = private_key_name
+        self.public_key_name = public_key_name
+        self.file_name = file_name
+        self.signature_name = signature_name
+
+        self.private_key = self.generate_private_key()
+        self.public_key = self.generate_public_key()
+
+    def generate_private_key(self):
+        '''
+            Create a private key with large public exponent.
+            Using keysize of 4096 bits
+        '''
+        PRIVATE_KEY = rsa.generate_private_key(
+            public_exponent=65537,
+            key_size=4096,
+            backend=default_backend(),
+        )
+        return PRIVATE_KEY
+
+    def generate_public_key(self):
+        return self.private_key.public_key()
+
+    def sign_file(self):
+
+        # -------------------------KEYS SECTION-----------------------------------------------------
+
+        with open(self.private_key_name, 'wb') as private_key_file:
+            '''
+                Saving the key to file
+                Using PEM encoding
+            '''
+            private_key_file.write(
+                self.private_key.private_bytes(
+                    encoding=serialization.Encoding.PEM,
+                    format=serialization.PrivateFormat.TraditionalOpenSSL,
+                    encryption_algorithm=serialization.NoEncryption(),
+                )
+            )
+            print(
+                f"[INFO] Generating private key file '{private_key_file.name}'")
+
+        with open(self.public_key_name, 'wb') as public_key_file:
+            '''
+                Saving public key derived from private key to file
+            '''
+            public_key_file.write(
+                self.private_key.public_key().public_bytes(
+                    encoding=serialization.Encoding.PEM,
+                    format=serialization.PublicFormat.SubjectPublicKeyInfo,
+                )
+            )
+            print(
+                f"[INFO] Generating private key file '{public_key_file.name}'")
+
+        # -------------------------SIGNING SECTION-----------------------------------------------------
+
+        '''
+            Loading the private key from file
+        '''
+        with open(self.private_key_name, 'rb') as key_file:
+            print("[INFO] Loading the private key...")
+            self.private_key = serialization.load_pem_private_key(
+                key_file.read(),
+                password=None,
+                backend=default_backend(),
+            )
+
+        '''
+            Loading the file to be signed in binary mode
+        '''
+        with open(self.file_name, 'rb') as f:
+            print(f"[INFO] Loading payload file from '{f.name}'")
+            sign_file = f.read()
+
+        # Generating the signature and signing the target file using SHA512
+        # The key is ENCODED in base64
+        signature = base64.b64encode(
+            self.private_key.sign(
+                sign_file,
+                padding.PSS(
+                    mgf=padding.MGF1(hashes.SHA512()),
+                    salt_length=padding.PSS.MAX_LENGTH,
+                ),
+                hashes.SHA512(),
+            )
+        )
+        with open(self.signature_name, 'wb') as signature_file:
+            signature_file.write(signature)
+
+
+def main():
+    print(
+        ".....................................................\n[PROCESS] Signing file...\n")
+    t1 = time.perf_counter()
+    # Create Signer object and sign the file
+    Mysigner = Signer(
+        "PyCrypto.txt",
+        "private.key",
+        "public.pem",
+        "signature.sig"
+    )
+
+    Mysigner.sign_file()
+
+    t2 = time.perf_counter()
+    print(f'[INFO] Completed in {t2-t1:.4F} Seconds')
+    print(".....................................................")
+
+
+if __name__ == "__main__":
+    main()

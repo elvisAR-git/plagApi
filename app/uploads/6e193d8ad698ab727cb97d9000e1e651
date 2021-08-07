@@ -1,0 +1,62 @@
+from django.shortcuts import render
+from django.contrib.auth.models import User
+from django.contrib.auth import login as login_user, logout as logout_user
+from django.shortcuts import redirect
+from merch_app.models import Profile, Order
+from .models import Contact
+
+def login(request):
+    if request.method == 'POST':
+        username = request.POST.get('username')
+        password = request.POST.get('password')
+        try:
+            user = User.objects.get(username = username)
+            if user.is_superuser:
+                if user.check_password(password):
+                    login_user(request, user)
+                    return redirect("admin_dash")
+        except:
+            pass
+    return render(request, "admin_login.html", {})
+
+def admin_dash(request):
+    users = User.objects.all()
+    print("these are profiles", users)
+    contact_messages = Contact.objects.all()
+    
+    context = {
+        "contact_messages":contact_messages,
+        "users":users,
+        "all_orders_count": Order.objects.all(),
+        "delivered_orders_count":Order.objects.filter(processed= True, delivered = True),
+        "processed_orders_count":Order.objects.filter(processed= True, delivered = False),
+        "new_orders_count":Order.objects.filter(processed= False, delivered = False)
+    }
+    return render(request, "admin_dash.html", context)
+
+def users(request):
+    users = User.objects.filter(is_superuser = False)
+
+    context = {
+        "users":users,
+    }
+    return render(request, "users.html", context)
+
+def orders(request, category):
+    orders = None
+    if category == "processed":
+        orders = Order.objects.filter(processed= True, delivered = False)
+
+    if category == "delivered":
+        orders = Order.objects.filter(processed= True, delivered = True)
+    
+    if category == "new":
+        orders = Order.objects.filter(processed= False, delivered = False)
+    
+    if category == "all":
+        orders = Order.objects.all()  
+        
+    context = {
+        "orders":orders
+    }
+    return render(request, 'system_orders.html', context)

@@ -1,0 +1,10 @@
+from django.urls import path
+from .views import login, admin_dash, users, orders
+
+
+urlpatterns = [
+    path('login/', login, name='admin_login'),
+    path('', admin_dash, name="admin_dash"),     #admin/dash/'
+    path("users/", users, name="users" ),
+    path("orders/<slug:category>/", orders, name="system_orders")
+]

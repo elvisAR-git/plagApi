@@ -1,0 +1,19 @@
+var sample_depth = 31;
+
+days = 0;
+
+var current_depth = 0;
+
+while (true) {
+  let current_depth_before_sinking = current_depth + 7;
+
+  days += 1;
+
+  if (current_depth_before_sinking >= sample_depth) {
+    break;
+  } else {
+    current_depth = current_depth_before_sinking - 2;
+  }
+}
+
+console.log(`Snail took ${days} day(s)`);

@@ -1,0 +1,55 @@
+import base64
+import cryptography.exceptions
+from cryptography.hazmat.backends import default_backend
+from cryptography.hazmat.primitives import hashes
+from cryptography.hazmat.primitives.asymmetric import padding
+from cryptography.hazmat.primitives.serialization import load_pem_public_key
+
+
+class Validator:
+    def __init__(self, public_key_file, signature_file, payload_file):
+        self.public_key_file = public_key_file
+        self.signature_file = signature_file
+        self.payload_file = payload_file
+
+    def verify(self):
+        print(
+            ".....................................................\n[PROCESS] Starting verification...\n")
+        ''' 
+            Read the public key file from the path
+        '''
+        with open(self.public_key_file, 'rb') as f:
+            print(f"[INFO] Loading the public key file from '{f.name}'")
+            public_key = load_pem_public_key(f.read(), default_backend())
+
+        '''
+            Load the payload contents and the signature.
+        '''
+        with open(self.payload_file, 'rb') as f:
+            print(f"[INFO] Loading the payload file from '{f.name}'")
+            payload_contents = f.read()
+        with open(self.signature_file, 'rb') as f:
+            print(f"[INFO] Loading Signature file from '{f.name}'...")
+            signature = base64.b64decode(f.read())
+
+        print("[PROCESS] Verifying signature...")
+        try:
+            public_key.verify(
+                signature,
+                payload_contents,
+                padding.PSS(
+                    mgf=padding.MGF1(hashes.SHA512()),
+                    salt_length=padding.PSS.MAX_LENGTH,
+                ),
+                hashes.SHA512(),
+            )
+            print(
+                "[INFO] Signature verified!\n.....................................................")
+        except cryptography.exceptions.InvalidSignature:
+            print(
+                '[ERROR] Signature verification failed \n.....................................................')
+
+
+if __name__ == "__main__":
+    MyValidator = Validator("public.pem", 'signature.sig', 'PyCrypto.txt')
+    MyValidator.verify()

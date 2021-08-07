@@ -1,0 +1,2 @@
+Cryptography is the practice and study of techniques for secure communication in the presence of third parties called adversaries. These adversaries are often referred to as Eve in cryptography, while the sender and recipient of messages are called Alice and Bob respectively. More generally, cryptography is about constructing and analyzing protocols that prevent third parties or the public
+from reading private messages.

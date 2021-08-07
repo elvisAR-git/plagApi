@@ -1,0 +1,1571 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Risk Note</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="generator" content="BCL easyConverter SDK 5.0.210" />
+    <style type="text/css">
+      body {
+        margin-top: 0px;
+        margin-left: 0px;
+      }
+
+      #page_1 {
+        position: relative;
+        overflow: hidden;
+        padding: 0px;
+        width: 580px;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+      }
+      #page_1 #id1_1 {
+        border: none;
+        margin: 0px 0px 0px 0px;
+        padding: 0px;
+        border: none;
+        width: 580px;
+        overflow: hidden;
+        box-sizing: border-box;
+      }
+      #page_1 #id1_2 {
+        border: none;
+        margin: 129px 0px 0px 20px;
+        padding: 0px;
+        border: none;
+        width: 580px;
+        overflow: hidden;
+      }
+
+      #page_1 #p1dimg1 {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: -1;
+        width: 580px;
+        height: 725px;
+      }
+      #page_1 #p1dimg1 #p1img1 {
+        width: 580px;
+        height: 725px;
+      }
+
+      .ft0 {
+        font-size: 7px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: bold;
+      }
+      .ft1 {
+        font-size: 7px;
+        font-family: "Open Sans", sans-serif;
+      }
+      .ft2 {
+        font-size: 7px;
+        font-family: "Open Sans", sans-serif;
+      }
+      .ft3 {
+        font-size: 7px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: bold;
+      }
+      .ft4 {
+        font-size: 7px;
+        font-family: "Open Sans", sans-serif;
+      }
+      .ft5 {
+        font-size: 7px;
+        font-family: "Open Sans", sans-serif;
+      }
+      .ft6 {
+        font-size: 7px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: bold;
+      }
+      .ft7 {
+        font-size: 7px;
+        font-family: "Open Sans", sans-serif;
+      }
+      .ft8 {
+        font-size: 7px;
+        font-family: "Open Sans", sans-serif;
+      }
+      .ft9 {
+        font-size: 7px;
+        font-family: "Open Sans", sans-serif;
+      }
+      .ft10 {
+        font-size: 7px;
+        font-family: "Open Sans", sans-serif;
+      }
+      .ft11 {
+        font-size: 7px;
+        font-family: "Open Sans", sans-serif;
+      }
+      .ft12 {
+        font-size: 7px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: bold;
+      }
+
+      .p0 {
+        text-align: left;
+        padding-left: 193px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+      .p1 {
+        text-align: left;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+      .p2 {
+        text-align: left;
+        padding-left: 66px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+      .p3 {
+        text-align: left;
+        padding-left: 5px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+      .p4 {
+        text-align: left;
+        padding-left: 4px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+      .p5 {
+        text-align: left;
+        padding-left: 16px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+      .p6 {
+        text-align: right;
+        padding-right: 26px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+      .p7 {
+        text-align: right;
+        padding-right: 39px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+      .p8 {
+        text-align: right;
+        padding-right: 44px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+      .p9 {
+        text-align: left;
+        padding-left: 7px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+      .p10 {
+        text-align: right;
+        padding-right: 5px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+      .p11 {
+        text-align: left;
+        padding-left: 3px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+      .p12 {
+        text-align: left;
+        padding-left: 5px;
+        margin-top: 5px;
+        margin-bottom: 0px;
+      }
+      .p13 {
+        text-align: left;
+        padding-left: 5px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+      .p14 {
+        text-align: left;
+        padding-left: 2px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+      .p15 {
+        text-align: right;
+        padding-right: 11px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+      .p16 {
+        text-align: left;
+        padding-left: 6px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+      .p17 {
+        text-align: right;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+      .p18 {
+        text-align: left;
+        padding-left: 8px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+      .p19 {
+        text-align: right;
+        padding-right: 3px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+      .p20 {
+        text-align: left;
+        padding-left: 53px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+
+      .td0 {
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td1 {
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td2 {
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td3 {
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td4 {
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td5 {
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td6 {
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td7 {
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td8 {
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td9 {
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td10 {
+        border-bottom: #000000 1px solid;
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td11 {
+        border-bottom: #000000 1px solid;
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td12 {
+        border-bottom: #000000 1px solid;
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td13 {
+        border-bottom: #000000 1px solid;
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td14 {
+        border-bottom: #d9d9d9 1px solid;
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td15 {
+        border-bottom: #d9d9d9 1px solid;
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td16 {
+        border-bottom: #d9d9d9 1px solid;
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td17 {
+        border-bottom: #d9d9d9 1px solid;
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td18 {
+        border-bottom: #d9d9d9 1px solid;
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td19 {
+        border-bottom: #d9d9d9 1px solid;
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td20 {
+        border-bottom: #d9d9d9 1px solid;
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td21 {
+        border-bottom: #d9d9d9 1px solid;
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td22 {
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td23 {
+        border-bottom: #d9d9d9 1px solid;
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td24 {
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td25 {
+        border-left: #d9d9d9 1px solid;
+        border-bottom: #d9d9d9 1px solid;
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td26 {
+        border-right: #d9d9d9 1px solid;
+        border-bottom: #d9d9d9 1px solid;
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td27 {
+        border-right: #d9d9d9 1px solid;
+        border-bottom: #d9d9d9 1px solid;
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td28 {
+        border-right: #d9d9d9 1px solid;
+        border-bottom: #d9d9d9 1px solid;
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td29 {
+        border-left: #d9d9d9 1px solid;
+        border-right: #d9d9d9 1px solid;
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td30 {
+        border-right: #d9d9d9 1px solid;
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td31 {
+        border-right: #d9d9d9 1px solid;
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td32 {
+        border-bottom: #f2f2f2 1px solid;
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td33 {
+        border-bottom: #f2f2f2 1px solid;
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td34 {
+        border-bottom: #f2f2f2 1px solid;
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td35 {
+        border-bottom: #f2f2f2 1px solid;
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td36 {
+        border-bottom: #f2f2f2 1px solid;
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td37 {
+        border-bottom: #f2f2f2 1px solid;
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td38 {
+        border-bottom: #f2f2f2 1px solid;
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td39 {
+        border-bottom: #f2f2f2 1px solid;
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td40 {
+        border-left: #f2f2f2 1px solid;
+        border-right: #f2f2f2 1px solid;
+        border-bottom: #f2f2f2 1px solid;
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td41 {
+        border-bottom: #f2f2f2 1px solid;
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td42 {
+        border-right: #f2f2f2 1px solid;
+        border-bottom: #f2f2f2 1px solid;
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td43 {
+        border-bottom: #f2f2f2 1px solid;
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td44 {
+        border-right: #f2f2f2 1px solid;
+        border-bottom: #f2f2f2 1px solid;
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td45 {
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td46 {
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td47 {
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td48 {
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td49 {
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td50 {
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td51 {
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td52 {
+        border-bottom: #d9d9d9 1px solid;
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td53 {
+        border-bottom: #d9d9d9 1px solid;
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td54 {
+        border-bottom: #d9d9d9 1px solid;
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td55 {
+        padding: 0px;
+        margin: 0px;
+        width: 623px;
+        vertical-align: bottom;
+      }
+      .td56 {
+        border-bottom: #d9d9d9 1px solid;
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td57 {
+        border-bottom: #d9d9d9 1px solid;
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td58 {
+        border-bottom: #d9d9d9 1px solid;
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td59 {
+        border-bottom: #d9d9d9 1px solid;
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td60 {
+        border-bottom: #d9d9d9 1px solid;
+        padding: 0px;
+        margin: 0px;
+        vertical-align: bottom;
+      }
+      .td61 {
+        padding: 0px;
+        margin: 0px;
+        width: 662px;
+        vertical-align: bottom;
+      }
+      .td62 {
+        padding: 0px;
+        margin: 0px;
+        width: 38px;
+        vertical-align: bottom;
+      }
+      .t0 {
+        width: 711px;
+        margin-top: 57px;
+        font-size: 10px;
+        font-family: "Open Sans", sans-serif;
+      }
+      .t1 {
+        width: 710px;
+        font: 8px "Helvetica";
+      }
+      .t2 {
+        width: 700px;
+        font-size: 10px;
+        font-family: "Open Sans", sans-serif;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="page_1">
+      <div id="id1_1">
+        <table
+          style="
+            width: 100%;
+            border-bottom: 3px solid #000000;
+            padding-bottom: 5px;
+          "
+        >
+          <tr>
+            <td style="width: 28%">
+              <img style="width: 190px" src="{{company_logo}}" />
+            </td>
+            <td>
+              <p
+                style="
+                  font-size: 10px;
+                  margin: 0px;
+                  font-family: 'Open Sans', sans-serif;
+                  font-weight: bold;
+                "
+              >
+                {{saas_name}}
+              </p>
+              <p
+                style="
+                  font-size: 10px;
+                  margin: 0px;
+                  font-family: 'Open Sans', sans-serif;
+                "
+              >
+                {{saas_Address}}
+              </p>
+              <p
+                style="
+                  font-size: 10px;
+                  margin: 0px;
+                  font-family: 'Open Sans', sans-serif;
+                "
+              >
+                <span style="font-weight: bold">TEL: </span
+                ><nobr>{{saas_Contact_No}}</nobr>
+                <span style="font-weight: bold">FAX: </span
+                ><nobr>{{saas_fax}}</nobr>
+              </p>
+              <p
+                style="
+                  font-size: 10px;
+                  margin: 0px;
+                  font-family: 'Open Sans', sans-serif;
+                "
+              >
+                <span style="font-weight: bold">EMAIL: </span>{{saas_Email}}
+                <span style="font-weight: bold">WEBSITE:</span
+                >{{company_Website_Url}}
+              </p>
+            </td>
+          </tr>
+        </table>
+        <table cellpadding="0" cellspacing="0" style="width: 100%">
+          <tr>
+            <td class="tr0 td0"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr0 td1"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr0 td2"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr0 td3">
+              <p
+                class="p2 ft0"
+                style="
+                  font-weight: bold;
+                  font-size: 10px;
+                  padding-bottom: 10px;
+                  padding-top: 2px;
+                "
+              >
+                FIRE & PERILS RISK NOTE
+              </p>
+            </td>
+            <td class="tr0 td4"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr0 td5"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr0 td6"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr0 td7"><p class="p1 ft2">&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td class="td0">
+              <p
+                class="p3"
+                style="
+                  font-size: 7px;
+                  font-family: 'Open Sans', sans-serif;
+                  font-weight: bold;
+                "
+              >
+                INSURER:
+              </p>
+            </td>
+            <td colspan="3" class="td8">
+              <p
+                class="p4"
+                style="font-size: 7px; font-family: 'Open Sans', sans-serif"
+              >
+                {{company_name}}
+              </p>
+            </td>
+            <td colspan="3" class="td9">
+              <p
+                class="p1"
+                style="
+                  font-size: 7px;
+                  font-family: 'Open Sans', sans-serif;
+                  font-weight: bold;
+                "
+              >
+                RISK NOTE NO:
+              </p>
+            </td>
+            <td class="td7">
+              <p
+                class="p5"
+                style="font-size: 7px; font-family: 'Open Sans', sans-serif"
+              >
+                {{risk_note_no}}
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td class="td0">
+              <p
+                class="p3"
+                style="
+                  font-size: 7px;
+                  font-family: 'Open Sans', sans-serif;
+                  font-weight: bold;
+                "
+              >
+                POLICY NO:
+              </p>
+            </td>
+            <td class="td1">
+              <p
+                class="p4"
+                style="font-size: 7px; font-family: 'Open Sans', sans-serif"
+              >
+                {{policy_no}}
+              </p>
+            </td>
+            <td class="td2"><p class="p1">&nbsp;</p></td>
+            <td class="td3"><p class="p1">&nbsp;</p></td>
+            <td class="td4"><p class="p1">&nbsp;</p></td>
+            <td class="td5"><p class="p1">&nbsp;</p></td>
+            <td class="td6"><p class="p1">&nbsp;</p></td>
+            <td class="td7"><p class="p1">&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td class="td10" style="border-bottom: 3px solid #000">
+              <p
+                class="p3"
+                style="
+                  font-size: 7px;
+                  font-family: 'Open Sans', sans-serif;
+                  font-weight: bold;
+                "
+              >
+                POLICY:
+              </p>
+            </td>
+            <td colspan="3" class="td11" style="border-bottom: 3px solid #000">
+              <p
+                class="p4"
+                style="font-size: 7px; font-family: 'Open Sans', sans-serif"
+              >
+                {{policy_name}}
+              </p>
+            </td>
+            <td colspan="3" class="td12" style="border-bottom: 3px solid #000">
+              <p
+                class="p1"
+                style="
+                  font-size: 7px;
+                  font-family: 'Open Sans', sans-serif;
+                  font-weight: bold;
+                "
+              >
+                CURRENCY
+              </p>
+            </td>
+            <td class="td13" style="border-bottom: 3px solid #000">
+              <p
+                class="p5"
+                style="font-size: 7px; font-family: 'Open Sans', sans-serif"
+              >
+                KSH
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td class="td14">
+              <p
+                class="p3"
+                style="
+                  font-size: 10px;
+                  font-family: 'Open Sans', sans-serif;
+                  font-weight: bold;
+                  padding-bottom: 1px;
+                "
+              >
+                CLIENT DETAILS:
+              </p>
+            </td>
+            <td class="tr2 td15"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr2 td16"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr2 td17"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr2 td18"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr2 td19"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr2 td20"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr2 td21"><p class="p1 ft2">&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td class="td0">
+              <p
+                class="p3"
+                style="
+                  font-size: 7px;
+                  font-family: 'Open Sans', sans-serif;
+                  font-weight: bold;
+                "
+              >
+                CUST ID
+              </p>
+            </td>
+            <td class="td1">
+              <p
+                class="p7"
+                style="
+                  font-size: 7px;
+                  font-family: 'Open Sans', sans-serif;
+                  text-align: left;
+                "
+              >
+                {{cust_id}}
+              </p>
+            </td>
+            <td class="td2"><p class="p1">&nbsp;</p></td>
+            <td class="td3"><p class="p1">&nbsp;</p></td>
+            <!--<TD colspan=3 class="td9"><P class="p1"style="font-size:10px;font-family: 'Open Sans', sans-serif;font-weight:bold;">MOBILE</P></TD>
+                <TD class="td7"><P class="p5"style="font-size:10px;font-family: 'Open Sans', sans-serif;">{{customer_mobile}}</P></TD>-->
+          </tr>
+          <tr>
+            <td class="td0">
+              <p
+                class="p3"
+                style="
+                  font-size: 7px;
+                  font-family: 'Open Sans', sans-serif;
+                  font-weight: bold;
+                "
+              >
+                POLICY HOLDER
+              </p>
+            </td>
+            <td colspan="3" class="td8">
+              <p
+                class="p4"
+                style="
+                  font-size: 7px;
+                  font-family: 'Open Sans', sans-serif;
+                  padding-left: 0px;
+                "
+              >
+                {{customer_name}}
+              </p>
+            </td>
+            <!--<TD colspan=3 class="td9"><P class="p1"style="font-size:10px;font-family: 'Open Sans', sans-serif;font-weight:bold;">TEL(OTHERS)</P></TD>
+                <TD class="td7"><P class="p5"style="font-size:10px;font-family: 'Open Sans', sans-serif;">{{customer_tel}}</P></TD>-->
+          </tr>
+          <tr>
+            <td class="tr5 td0"><p class="p3 ft6">POSTAL ADDRESS:</p></td>
+            <td colspan="3" class="tr5 td8">
+              <p class="p4 ft7" style="padding-left: 0px">
+                {{customer_postaladdress}}
+              </p>
+            </td>
+            <!--<TD colspan=3 class="tr5 td9"><P class="p1 ft6">E- MAIL:</P></TD>
+                <TD class="tr5 td7"><P class="p5 ft7">{{customer_email}}</P></TD>-->
+          </tr>
+          <tr>
+            <td class="tr2 td0"><p class="p3 ft0">POSTAL CODE:</p></td>
+            <td colspan="3" class="tr2 td8">
+              <p class="p4 ft1" style="padding-left: 0px">
+                {{customer_postalcode}}
+              </p>
+            </td>
+            <!--<TD colspan=3 class="tr2 td9"><P class="p1 ft0">BANK A/C NO.</P></TD>
+                <TD class="tr2 td7"><P class="p5 ft1">{{customer_bankno}}</P></TD>-->
+          </tr>
+          <tr>
+            <td class="tr5 td0"><p class="p3 ft6">ID NO.:</p></td>
+            <td class="tr5 td1">
+              <p class="p8 ft7" style="text-align: left">{{customer_idno}}</p>
+            </td>
+            <td class="tr5 td2"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td3"><p class="p1 ft8">&nbsp;</p></td>
+            <!--<TD colspan=3 class="tr5 td9"><P class="p1 ft6">BRANCH CODE</P></TD>
+                <TD class="tr5 td7"><P class="p5 ft7">{{customer_branchcode}}</P></TD>-->
+          </tr>
+          <tr>
+            <td class="tr2 td0"><p class="p3 ft0">PIN NO.:</p></td>
+            <td colspan="2" class="tr2 td22">
+              <p class="p4 ft1" style="padding-left: 0px">{{customer_pinno}}</p>
+            </td>
+            <td class="tr2 td3"><p class="p1 ft2">&nbsp;</p></td>
+            <!--<TD colspan=3 class="tr2 td9"><P class="p1 ft0">OCCUPATION:</P></TD>-->
+            <!--<TD colspan=2 class="tr2 td22"><P class="p4 ft1"style="padding-left:0px;">{{customer_occupation}}</P></TD>-->
+            <td class="tr2 td7"><p class="p1 ft2">&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td class="tr1 td14"><p class="p3 ft0">PERIOD OF INSURANCE</p></td>
+            <td class="tr1 td15"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr1 td16"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr1 td17"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr1 td18"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr1 td19"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr1 td20"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr1 td21"><p class="p1 ft2">&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td class="tr4 td14"><p class="p3 ft3">COVER FROM</p></td>
+            <td class="tr4 td15"><p class="p7 ft4">{{cover_from}}</p></td>
+            <td class="tr4 td16"><p class="p1 ft5">&nbsp;</p></td>
+            <td class="tr4 td17"><p class="p1 ft5">&nbsp;</p></td>
+            <td colspan="3" class="tr4 td23"><p class="p1 ft3">COVER TO</p></td>
+            <td class="tr4 td21"><p class="p5 ft4">{{cover_from}}</p></td>
+          </tr>
+          <tr>
+            <td class="tr5 td0">
+              <p class="p3 ft6">TIME ON RISK COVER FROM</p>
+            </td>
+            <td class="tr5 td1"><p class="p7 ft7">25/10/2019</p></td>
+            <td class="tr5 td2"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td3"><p class="p1 ft8">&nbsp;</p></td>
+            <td colspan="3" class="tr5 td9"><p class="p1 ft6">COVER TO</p></td>
+            <td class="tr5 td7"><p class="p5 ft7">24/10/2020</p></td>
+          </tr>
+          <tr>
+            <td class="tr6 td0"><p class="p3 ft0">COVER</p></td>
+            <td colspan="2" class="tr6 td22">
+              <p class="p4 ft0">STANDARD COVER</p>
+            </td>
+            <td class="tr6 td3"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr6 td4"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr6 td5"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr6 td6"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr6 td7"><p class="p1 ft2">&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td class="tr5 td0"><p class="p1 ft8">&nbsp;</p></td>
+            <td colspan="3" class="tr5 td8">
+              <p class="p4 ft7">
+                Fire, lightning, bush fire, explosion, earth quake, (fire, shock
+                and volcanic
+              </p>
+            </td>
+            <td class="tr5 td4"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td5"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td6"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td7"><p class="p1 ft8">&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td class="tr5 td0"><p class="p1 ft8">&nbsp;</p></td>
+            <td colspan="3" class="tr5 td8">
+              <p class="p4 ft7">
+                eruption) riot, strike, malicious damage and special perils as
+                per policy .
+              </p>
+            </td>
+            <td class="tr5 td4"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td5"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td6"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td7"><p class="p1 ft8">&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td colspan="3" class="tr7 td24">
+              <p class="p9 ft0">INSURED: ROBERT MWANGI KAMOTHO</p>
+            </td>
+            <td class="tr7 td3"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr7 td4"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr7 td5"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr7 td6"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr7 td7"><p class="p1 ft2">&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td class="tr8 td14"><p class="p1 ft9">&nbsp;</p></td>
+            <td class="tr8 td15"><p class="p1 ft9">&nbsp;</p></td>
+            <td class="tr8 td16"><p class="p1 ft9">&nbsp;</p></td>
+            <td class="tr8 td17"><p class="p1 ft9">&nbsp;</p></td>
+            <td class="tr8 td18"><p class="p1 ft9">&nbsp;</p></td>
+            <td class="tr8 td19"><p class="p1 ft9">&nbsp;</p></td>
+            <td class="tr8 td20"><p class="p1 ft9">&nbsp;</p></td>
+            <td class="tr8 td21"><p class="p1 ft9">&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td class="tr5 td25"><p class="p3 ft6">THE PROPERTY INSURED</p></td>
+            <td class="tr5 td26"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td16"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td17"><p class="p1 ft6">LOCATION</p></td>
+            <td class="tr5 td18"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td27"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td20"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td28"><p class="p10 ft6">SUM INSURED</p></td>
+          </tr>
+          <tr>
+            <td colspan="2" class="tr5 td29">
+              <p class="p3 ft7">
+                RESIDENTIAL COMMERCIAL NAIROBI /BLOCK 115/947
+              </p>
+            </td>
+            <td class="tr5 td2"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td3">
+              <p class="p1 ft7">NAIROBI /BLOCK 115/947 UTAWALA AREA</p>
+            </td>
+            <td class="tr5 td4"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td30"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td6"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td31"><p class="p10 ft7">10,900,000.00</p></td>
+          </tr>
+          <tr>
+            <td class="tr5 td25"><p class="p3 ft7">UTAWALA AREA</p></td>
+            <td class="tr5 td26"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td16"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td17"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td18"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td27"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td20"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td28"><p class="p1 ft8">&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td class="tr2 td25"><p class="p3 ft0">Totals</p></td>
+            <td class="tr2 td15"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr2 td16"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr2 td17"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr2 td18"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr2 td27"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr2 td20"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr2 td28"><p class="p10 ft0">10,900,000.00</p></td>
+          </tr>
+          <tr>
+            <td class="tr9 td32">
+              <p class="p3 ft0">
+                <span class="ft1">LIMITS </span>OF LIABILITY/EXCESS:
+              </p>
+            </td>
+            <td class="tr9 td33"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr9 td34"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr9 td35"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr9 td36"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr9 td37"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr9 td38"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr9 td39"><p class="p1 ft2">&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td class="tr5 td40"><p class="p3 ft6">DESCRIPTION</p></td>
+            <td colspan="2" class="tr5 td41">
+              <p class="p4 ft6">LIMITS OF LIABILITY</p>
+            </td>
+            <td class="tr5 td35"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td42"><p class="p1 ft8">&nbsp;</p></td>
+            <td colspan="2" class="tr5 td43"><p class="p11 ft6">EXCESS</p></td>
+            <td class="tr5 td44"><p class="p1 ft8">&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td class="tr5 td40"><p class="p9 ft7">Sum Insured</p></td>
+            <td colspan="2" class="tr5 td41">
+              <p class="p4 ft7">Sum Insured</p>
+            </td>
+            <td class="tr5 td35"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td42"><p class="p1 ft8">&nbsp;</p></td>
+            <td colspan="2" class="tr5 td43"><p class="p11 ft7">NIL</p></td>
+            <td class="tr5 td44"><p class="p1 ft8">&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td class="tr5 td40"><p class="p9 ft7">Replacement Value</p></td>
+            <td colspan="2" class="tr5 td41">
+              <p class="p4 ft7">Sum Insured</p>
+            </td>
+            <td class="tr5 td35"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td42"><p class="p1 ft8">&nbsp;</p></td>
+            <td colspan="2" class="tr5 td43"><p class="p11 ft7">NIL</p></td>
+            <td class="tr5 td44"><p class="p1 ft8">&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td class="tr10 td0"><p class="p3 ft0">APPLICABLE CLAUSES</p></td>
+            <td class="tr10 td1"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr10 td2"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr10 td3"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr10 td4"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr10 td5"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr10 td6"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr10 td7"><p class="p1 ft2">&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td class="tr5 td0"><p class="p1 ft8">&nbsp;</p></td>
+            <td colspan="3" class="tr5 td8">
+              <p class="p4 ft7">85% Condition Of Average</p>
+            </td>
+            <td class="tr5 td4"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td5"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td6"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td7"><p class="p1 ft8">&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td class="tr2 td0"><p class="p1 ft2">&nbsp;</p></td>
+            <td colspan="3" class="tr2 td8">
+              <p class="p4 ft1">Accidental Error Or Omission</p>
+            </td>
+            <td class="tr2 td4"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr2 td5"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr2 td6"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr2 td7"><p class="p1 ft2">&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td class="tr5 td0"><p class="p1 ft8">&nbsp;</p></td>
+            <td colspan="3" class="tr5 td8">
+              <p class="p4 ft7">All Other Contents Clause- Limits Kshs.</p>
+            </td>
+            <td class="tr5 td4"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td5"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td6"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td7"><p class="p1 ft8">&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td class="tr5 td0"><p class="p1 ft8">&nbsp;</p></td>
+            <td colspan="3" class="tr5 td8">
+              <p class="p4 ft7">Alterations And Repairs Clause</p>
+            </td>
+            <td class="tr5 td4"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td5"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td6"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td7"><p class="p1 ft8">&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td class="tr5 td0"><p class="p1 ft8">&nbsp;</p></td>
+            <td colspan="3" class="tr5 td8">
+              <p class="p4 ft7">Automatic Reinstatement Of Loss Clause</p>
+            </td>
+            <td class="tr5 td4"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td5"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td6"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td7"><p class="p1 ft8">&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td class="tr2 td0"><p class="p1 ft2">&nbsp;</p></td>
+            <td colspan="2" class="tr2 td22">
+              <p class="p4 ft1">Average Clause</p>
+            </td>
+            <td class="tr2 td3"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr2 td4"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr2 td5"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr2 td6"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr2 td7"><p class="p1 ft2">&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td class="tr5 td0"><p class="p1 ft8">&nbsp;</p></td>
+            <td colspan="3" class="tr5 td8">
+              <p class="p4 ft7">Boarding Clause/Loss Reduction</p>
+            </td>
+            <td class="tr5 td4"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td5"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td6"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td7"><p class="p1 ft8">&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td class="tr5 td0"><p class="p1 ft8">&nbsp;</p></td>
+            <td colspan="3" class="tr5 td8">
+              <p class="p4 ft7">Breach Of Conditions Clause</p>
+            </td>
+            <td class="tr5 td4"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td5"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td6"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td7"><p class="p1 ft8">&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td class="tr5 td0"><p class="p1 ft8">&nbsp;</p></td>
+            <td colspan="2" class="tr5 td22">
+              <p class="p4 ft7">Bush Fire</p>
+            </td>
+            <td class="tr5 td3"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td4"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td5"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td6"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td7"><p class="p1 ft8">&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td class="tr2 td0"><p class="p1 ft2">&nbsp;</p></td>
+            <td colspan="3" class="tr2 td8">
+              <p class="p4 ft1">Cancellation Clause - 30 Days</p>
+            </td>
+            <td class="tr2 td4"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr2 td5"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr2 td6"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr2 td7"><p class="p1 ft2">&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td class="tr5 td0"><p class="p1 ft8">&nbsp;</p></td>
+            <td colspan="3" class="tr5 td8">
+              <p class="p4 ft7">Capital Additions Clause - Limit 10%</p>
+            </td>
+            <td class="tr5 td4"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td5"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td6"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td7"><p class="p1 ft8">&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td class="tr5 td0"><p class="p1 ft8">&nbsp;</p></td>
+            <td colspan="3" class="tr5 td8">
+              <p class="p4 ft7">Computer System Records Clause</p>
+            </td>
+            <td class="tr5 td4"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td5"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td6"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td7"><p class="p1 ft8">&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td class="tr5 td0"><p class="p1 ft8">&nbsp;</p></td>
+            <td colspan="3" class="tr5 td8">
+              <p class="p4 ft7">Designation Of Property Clause</p>
+            </td>
+            <td class="tr5 td4"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td5"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td6"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td7"><p class="p1 ft8">&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td class="tr2 td0"><p class="p1 ft2">&nbsp;</p></td>
+            <td colspan="2" class="tr2 td22">
+              <p class="p4 ft1">Electrical Clause No. 1</p>
+            </td>
+            <td class="tr2 td3"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr2 td4"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr2 td5"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr2 td6"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr2 td7"><p class="p1 ft2">&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td class="tr5 td0"><p class="p1 ft8">&nbsp;</p></td>
+            <td colspan="2" class="tr5 td22">
+              <p class="p4 ft7">Fire Brigade Charges</p>
+            </td>
+            <td class="tr5 td3"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td4"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td5"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td6"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td7"><p class="p1 ft8">&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td class="tr5 td0"><p class="p1 ft8">&nbsp;</p></td>
+            <td colspan="3" class="tr5 td8">
+              <p class="p4 ft7">
+                Goods In Trust And/Or On Commision - Kshs. 500,000/=
+              </p>
+            </td>
+            <td class="tr5 td4"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td5"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td6"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td7"><p class="p1 ft8">&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td class="tr5 td0"><p class="p1 ft8">&nbsp;</p></td>
+            <td colspan="3" class="tr5 td8">
+              <p class="p4 ft7">Landlords Fixtures And Fittings</p>
+            </td>
+            <td class="tr5 td4"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td5"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td6"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td7"><p class="p1 ft8">&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td class="tr2 td0"><p class="p1 ft2">&nbsp;</p></td>
+            <td colspan="3" class="tr2 td8">
+              <p class="p4 ft1">Lien Clause - Equity Bank Limited</p>
+            </td>
+            <td class="tr2 td4"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr2 td5"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr2 td6"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr2 td7"><p class="p1 ft2">&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td class="tr5 td0"><p class="p1 ft8">&nbsp;</p></td>
+            <td colspan="2" class="tr5 td22">
+              <p class="p4 ft7">Misdescreption Clause</p>
+            </td>
+            <td class="tr5 td3"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td4"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td5"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td6"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td7"><p class="p1 ft8">&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td class="tr5 td0"><p class="p1 ft8">&nbsp;</p></td>
+            <td colspan="2" class="tr5 td22">
+              <p class="p4 ft7">Other Tenants Clause</p>
+            </td>
+            <td class="tr5 td3"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td4"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td5"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td6"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td7"><p class="p1 ft8">&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td class="tr5 td0"><p class="p1 ft8">&nbsp;</p></td>
+            <td colspan="3" class="tr5 td8">
+              <p class="p4 ft7">Payment On Account Clause</p>
+            </td>
+            <td class="tr5 td4"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td5"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td6"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td7"><p class="p1 ft8">&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td class="tr2 td0"><p class="p1 ft2">&nbsp;</p></td>
+            <td colspan="3" class="tr2 td8">
+              <p class="p4 ft1">Petrol And Mineral Oil Warranty No. 1</p>
+            </td>
+            <td class="tr2 td4"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr2 td5"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr2 td6"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr2 td7"><p class="p1 ft2">&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td class="tr5 td0"><p class="p1 ft8">&nbsp;</p></td>
+            <td colspan="3" class="tr5 td8">
+              <p class="p4 ft7">Reinstatement Value/Replacement</p>
+            </td>
+            <td class="tr5 td4"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td5"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td6"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td7"><p class="p1 ft8">&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td class="tr5 td0"><p class="p1 ft8">&nbsp;</p></td>
+            <td colspan="3" class="tr5 td8">
+              <p class="p4 ft7">Safe And Books Clause</p>
+            </td>
+            <td class="tr5 td4"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td5"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td6"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td7"><p class="p1 ft8">&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td class="tr5 td0"><p class="p1 ft8">&nbsp;</p></td>
+            <td colspan="3" class="tr5 td8">
+              <p class="p4 ft7">
+                Temporary Removal Clause (Internal & External)
+              </p>
+            </td>
+            <td class="tr5 td4"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td5"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td6"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td7"><p class="p1 ft8">&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td class="tr6 td0"><p class="p3 ft0">EXCLUSION</p></td>
+            <td class="tr6 td1"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr6 td2"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr6 td3"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr6 td4"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr6 td5"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr6 td6"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr6 td7"><p class="p1 ft2">&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td class="tr5 td0"><p class="p1 ft8">&nbsp;</p></td>
+            <td colspan="3" class="tr5 td8">
+              <p class="p4 ft7">
+                Damage Due To Electrical Breakdown Or Mechanical Derangement
+              </p>
+            </td>
+            <td class="tr5 td4"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td5"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td6"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td7"><p class="p1 ft8">&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td class="tr2 td0"><p class="p1 ft2">&nbsp;</p></td>
+            <td colspan="3" class="tr2 td8">
+              <p class="p4 ft1">Excluding War, Terrorism & Political Risks</p>
+            </td>
+            <td class="tr2 td4"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr2 td5"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr2 td6"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr2 td7"><p class="p1 ft2">&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td class="tr5 td0"><p class="p1 ft8">&nbsp;</p></td>
+            <td colspan="2" class="tr5 td22">
+              <p class="p4 ft7">War And Allied Perils</p>
+            </td>
+            <td class="tr5 td3"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td4"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td5"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td6"><p class="p1 ft8">&nbsp;</p></td>
+            <td class="tr5 td7"><p class="p1 ft8">&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td class="tr2 td0"><p class="p1 ft2">&nbsp;</p></td>
+            <td colspan="3" class="tr2 td8">
+              <p class="p4 ft1">
+                Wear And Tear Or Depreciation, Moth Or Vermin
+              </p>
+            </td>
+            <td class="tr2 td4"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr2 td5"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr2 td6"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr2 td7"><p class="p1 ft2">&nbsp;</p></td>
+          </tr>
+        </table>
+        <p style="page-break-before: always" class="p12 ft0">PREMIUM</p>
+        <p class="p13 ft0">COMPUTATION(KSHS)2</p>
+        <table cellpadding="0" cellspacing="0" class="t1">
+          <tr>
+            <td class="tr5 td45"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr5 td46"><p class="p14 ft6">Premium</p></td>
+            <td class="tr5 td47"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr5 td48"><p class="p15 ft7">20,165.00</p></td>
+            <td class="tr5 td49">
+              <p class="p16 ft6">Time on Risk Premium:</p>
+            </td>
+            <td colspan="2" class="tr5 td22">
+              <p class="p17 ft7">20,165.00</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="tr5 td45"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr5 td46"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr5 td47"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr5 td48"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr5 td49"><p class="p18 ft7">Policyholders Fund</p></td>
+            <td colspan="2" class="tr5 td22"><p class="p19 ft7">50.00</p></td>
+          </tr>
+          <tr>
+            <td class="tr5 td45"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr5 td46"><p class="p1 ft7">Policyholders Fund</p></td>
+            <td class="tr5 td47"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr5 td48"><p class="p15 ft7">50.00</p></td>
+            <td class="tr5 td49"><p class="p18 ft7">Training Levy</p></td>
+            <td colspan="2" class="tr5 td22"><p class="p19 ft7">40.00</p></td>
+          </tr>
+          <tr>
+            <td class="tr2 td45"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr2 td46"><p class="p1 ft1">Training Levy</p></td>
+            <td class="tr2 td47"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr2 td48"><p class="p15 ft1">40.00</p></td>
+            <td class="tr2 td49">
+              <p class="p16 ft0">Total Time on Risk Premium</p>
+            </td>
+            <td colspan="2" class="tr2 td22">
+              <p class="p19 ft0">20,255.00</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="tr5 td45"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr5 td46"><p class="p1 ft6">First Premium</p></td>
+            <td class="tr5 td47"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr5 td48"><p class="p15 ft6">20,255.00</p></td>
+            <td class="tr5 td49"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr5 td50"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr5 td51"><p class="p1 ft2">&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td class="tr5 td45"><p class="p3 ft6">MODE OF PAYMENT:</p></td>
+            <td class="tr5 td46"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr5 td47"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr5 td48"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr5 td49"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr5 td50"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr5 td51"><p class="p1 ft2">&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td colspan="5" class="tr11 td52"><p class="p1 ft10">&nbsp;</p></td>
+            <td class="tr11 td53"><p class="p1 ft10">&nbsp;</p></td>
+            <td class="tr11 td54"><p class="p1 ft10">&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td colspan="5" class="tr4 td55">
+              <p class="p3 ft4">
+                Premium are payable to Equity Insurance Agency Limited; A/C NO.
+                0180291028202; Community Corporate Branch, Equity Bank Limited.
+              </p>
+            </td>
+            <td class="tr4 td50"><p class="p1 ft5">&nbsp;</p></td>
+            <td class="tr4 td51"><p class="p1 ft5">&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td class="tr5 td45"><p class="p3 ft7">CASH</p></td>
+            <td class="tr5 td46"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr5 td47"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr5 td48"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr5 td49"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr5 td50"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr5 td51"><p class="p1 ft2">&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td class="tr2 td45"><p class="p3 ft0">CUSTOMER SIGNATURE:</p></td>
+            <td class="tr2 td46"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr2 td47"><p class="p1 ft0">DATE:</p></td>
+            <td class="tr2 td48"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr2 td49"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr2 td50"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr2 td51"><p class="p1 ft2">&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td class="tr12 td56"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr12 td57"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr12 td58"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr12 td59"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr12 td60"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr12 td53"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr12 td54"><p class="p1 ft2">&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td class="tr10 td45">
+              <p class="p3 ft0">
+                ISSUING INSURANCE OFFICER<span class="ft1">:</span>
+              </p>
+            </td>
+            <td class="tr10 td46"><p class="p20 ft1">Njoroge Joseph</p></td>
+            <td class="tr10 td47"><p class="p1 ft0">DATE:</p></td>
+            <td class="tr10 td48"><p class="p10 ft1">25/10/2019</p></td>
+            <td class="tr10 td49"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr10 td50"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr10 td51"><p class="p1 ft2">&nbsp;</p></td>
+          </tr>
+          <tr>
+            <td class="tr9 td56">
+              <p class="p3 ft0">VERIFIED OPERATIONS MANAGER</p>
+            </td>
+            <td class="tr9 td57"><p class="p20 ft1">Njoroge Joseph</p></td>
+            <td class="tr9 td58"><p class="p1 ft0">DATE:</p></td>
+            <td class="tr9 td59"><p class="p10 ft1">25/10/2019</p></td>
+            <td class="tr9 td60"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr9 td53"><p class="p1 ft2">&nbsp;</p></td>
+            <td class="tr13 td51"><p class="p1 ft2">&nbsp;</p></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
